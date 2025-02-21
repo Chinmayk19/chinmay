@@ -1,11 +1,12 @@
 import React from 'react';
 import logo from "../../assets/react.svg";
+import logo2 from "../../assets/photo.png";
 
 const Navbar = () => {
   return (
     <div className='flex flex-col sm:flex-row p-4  items-center bg-black'>
         <div className='w-fit'>
-            <img src={logo} alt="Logo" className='w-8 sm:w-12'/>
+            <img src={logo2} alt="Logo" className='w-8 sm:w-12'/>
         </div>
         <div className='flex flex-col sm:flex-row sm:items-center w-fit mt-2 sm:mt-0 ml-0 sm:ml-2'>
             <ul className='flex flex-col sm:flex-row sm:space-x-4 items-center sm:items-start'>
